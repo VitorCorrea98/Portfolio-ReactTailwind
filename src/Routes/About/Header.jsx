@@ -19,9 +19,8 @@ export default function Header() {
                     </li>
                 </ul>
             </nav>
-                <h1 className="Mariana mt-10 text-center"><Link to="/home">Mariana Ribeiro Vaz</Link></h1>
+                <h1 className="Mariana mt-10 text-center"><Link to="/">Mariana Ribeiro Vaz</Link></h1>
         </header>
-        <hr/>
         </>
 
     )

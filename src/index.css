@@ -79,11 +79,15 @@ body{
 /* ---------- */
 @layer components{
     .CurrentDesign-Esquerda{
-        @apply col-start-2 row-start-2 col-span-3
+        @apply col-start-3 row-start-2 col-span-2
     }
 
     .CurrentDesign-Direita{
-        @apply col-start-5 row-start-2 col-span-3
+        @apply col-start-5 row-start-2 col-span-2
+    }
+
+    .FotoLarguraPadrao{
+        @apply row-start-1 w-80
     }
 }
 /* ---------- */

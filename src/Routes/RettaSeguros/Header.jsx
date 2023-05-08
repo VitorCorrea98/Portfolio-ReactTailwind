@@ -6,7 +6,7 @@ export default function Header() {
         <>
         <header className="Header font-Roboto mb-32">
             <div className="flex justify-evenly items-center m-10">
-                <h1 className="Mariana"><Link to="/home">Mariana Ribeiro Vaz</Link></h1>
+                <h1 className="Mariana"><Link to="/">Mariana Ribeiro Vaz</Link></h1>
                 <nav className="">
                     <ul className="inline-flex gap-9 text-2xl">
                         <li>

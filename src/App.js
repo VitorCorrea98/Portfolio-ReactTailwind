@@ -1,22 +1,24 @@
 import { Component } from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import Home from "./Routes/Home/Home";
 import About from "./Routes/About/About";
 import RettaSeguros from "./Routes/RettaSeguros/RettaSeguros"
-import ErrorPage from "./error-page";
+import Footer from "./Components/Footer-All-Pages"
+import React from "react";
+
 
 class App extends Component {
     render() {
         return (
-        <BrowserRouter>
-            <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/about" element={<About />} />
-                <Route path="/home" element={<Home />} />
-                <Route path="*" element={<ErrorPage />} />
-                <Route path="/retta-seguros" element={<RettaSeguros />} />
-            </Routes>
-        </BrowserRouter>
+            <>
+                <Routes>
+                    <Route path="/" element={<Home />} />
+                    <Route path="/about" element={<About />} />
+                    <Route path="/retta-seguros" element={<RettaSeguros />} />
+                </Routes>
+                <Footer />
+            </>
+        
         )
     }
 }
