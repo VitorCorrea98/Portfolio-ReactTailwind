@@ -19,8 +19,8 @@ export default function Footer() {
                 </li>
                 <li>
                     <div className="Link-Content">
-                        <i className="fa-regular fa-file-lines"></i>
-                        <p>PDF Portfolio</p>
+                    <i className="fa-regular fa-envelope"></i>
+                        <p>E-mail</p>
                     </div>
                 </li>
             </ul>
