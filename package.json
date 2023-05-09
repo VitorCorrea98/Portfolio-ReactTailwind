@@ -41,6 +41,5 @@
   },
   "devDependencies": {
     "tailwindcss": "^3.3.2"
-  },
-  "homepage": "https://vitorcorrea98.github.io/Portfolio-ReactTailwind/"
+  }
 }
